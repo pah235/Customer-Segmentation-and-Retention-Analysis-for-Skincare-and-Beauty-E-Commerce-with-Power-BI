@@ -282,6 +282,7 @@ Introduce clear routines, refill reminders, and simple product bundles to encour
 - **3. Strengthen Loyalty & Prevent Churn**
 
 Offer meaningful rewards, early-access perks, and personalized follow-ups to keep high-value customers engaged instead of drifting away.
+
 ---
 
 **Tools**: Power BI Desktop | Power Query | DAX | Excel  
