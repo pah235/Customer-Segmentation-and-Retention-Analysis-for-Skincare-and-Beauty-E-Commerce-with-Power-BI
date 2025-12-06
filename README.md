@@ -210,15 +210,11 @@ Developed interactive three-page report:
 
 ### 📍 Customer Overview Insights (2023)
 
-- **Strong customer base growth with improved retention**: Total customers increased 24.72% to 7,624 and returning customers surged 76.45% to 2,990. This shows the store is both attracting new customers well and significantly improving customer retention capabilities.
-
-- **Revenue growth but declining AOV**: Revenue increased 23.82% to \$2.19M while AOV decreased 2.54% to \$125. This reflects growth coming from customer volume, not order value, and the store needs to push upsell/cross-sell to raise AOV.
-
-- **Purchase frequency remains low**: Purchase Frequency is only 2.30 times/year (+1.87%), equivalent to customers repurchasing about once every 5 months – lower than the 1-3 month skincare cycle. This demonstrates that purchase frequency is an important growth lever but has not been fully utilized.
-
-- **Southeast Asia & Oceania show fastest growth**: SEA increased 36.69% and Oceania increased 34.07%, nearly double the rate in Western Europe & Central America. This shows these two regions should be prioritized for expansion investment.
-
-- **Western Europe & Central America remain the foundation**: Western Europe accounts for 27.27% and Central America 26.71%, meaning over 50% of total customers. This shows the store still needs to maintain stability in these two core markets while expanding to new regions.
+* **Customer base up, retention improved:** Total customers +24.72%, returning customers +76.45% → strong acquisition and better retention.
+* **Revenue up, AOV down:** Revenue +23.82% but AOV –2.54% → growth driven by volume, not order value; upsell/cross-sell needed.
+* **Purchase frequency still low:** 2.3 purchases/year (~every 5 months) → below the 1–3 month skincare cycle.
+* **SEA & Oceania growing fastest:** Growth nearly double other regions → priority expansion markets.
+* **Western Europe & Central America remain core:** Over 50% of total customers → must remain stable while scaling elsewhere.
 
 #### **Page 2: Segmentation Analysis (RFM)** (focused on 2023)
 <p align="center">
@@ -227,17 +223,16 @@ Developed interactive three-page report:
 
 ### 🎯 RFM Segmentation Insights
 
-- **Customer base heavily skewed toward one-time buyers**: New Customers account for 28.31% while Champions are only 25.58%. This shows the conversion rate from new to loyal customers is low and needs improvement in onboarding & early retention.
-
-- **Promising is a potential segment but not yet activated**: This group accounts for 25.04% of customer base and has stronger growth potential but has not been properly activated. This shows the need to build specific activation strategies for this group.
-
-- **Loyal segment too small for industry scale**: Loyal accounts for only 8.33%, low for the skincare industry which has replenishment characteristics. This shows customers are not being maintained for repeat purchases frequently enough.
-
-- **Frequency is the major weakness across entire customer base**: Frequency is only at 2.05/5 – lowest in RFM, although Recency and Monetary are fairly stable. This shows customers lack reasons to return frequently, possibly due to lack of repurchase triggers or loyalty programs.
-
-- **Need Attention & About to Sleep are risk signals**: Need Attention accounts for 3.28% and About to Sleep 1.41%, totaling ~4.7% of customers about to churn. This warns the store needs to deploy win-back campaigns early.
-
-- **Body care dominates, Face care is neglected**: Body care has 4.7K customers while Face care has only 1K. This creates a large cross-sell opportunity, as Face care typically has higher purchase frequency and profit margins.
+* **Overall RFM good but Frequency weak:** Strong Recency and decent Monetary, but low Frequency remains the bottleneck.
+* **Champions booming:** +142% YoY, 44% of revenue, excellent RFM profile; however Recency is still longer than ideal.
+* **Promising growing but still one-time buyers:** +117% revenue but Frequency = 1 → high-value customers not returning.
+* **Loyal segment collapsing:** –66% revenue, Recency worsening → clear sign of churn.
+* **New Customers exploding but low value:** +770% customers but only 4.9% of sales; very low AOV → leaky bucket.
+* **About to Sleep near extinction:** –90% revenue → severe churn.
+* **Three segments vanished (–100%):** Evidence of systemic churn.
+* **Potential Loyalists have upside:** Higher Frequency than Loyal → strong upgrade potential.
+* **Need Attention declining:** On track to fall into About to Sleep.
+* **Body care dominates, Face care underpenetrated:** Large cross-sell opportunity.
 
 #### **Page 3: Retention Analysis (Cohort)**
 <p align="center">
@@ -246,107 +241,47 @@ Developed interactive three-page report:
 
 ### 📅 Retention (Cohort Analysis) Insights
 
-- **Large cohorts but low retention**: Sep-23 cohort has 837 customers but Month 1-3 retention only 2.7%-4%. This shows that despite large customer influx, return rate remains limited.
-
-- **Some cohorts show "recovery" patterns**: Jan-23 cohort increased retention from 3.8% to 5.15% at Month 10-11 and Apr-23 maintained ~4% at Month 7-8. This shows possible impact from seasonal demand or reactivation campaigns.
-
-- **Champions have strongest retention**: With Month 1 at 5.85% and Month 2 at 6.31%, even Month 5-6 still ~4%, this is the segment with clearest and most stable loyal behavior.
-
-- **Loyal & Need Attention have very low retention**: Loyal drops to <1% from Month 6 onward and Need Attention only 0.4-2.8%. This indicates high churn risk and needs programs to maintain this group.
-
-- **Potential Loyalists show development potential**: Month 1-2 retention higher than Loyal (3.9% → 5.54%), showing this group should be prioritized for activation to upgrade to Loyal/Champions.
-
-- **Some segments lack retention data after Month 0**: Promising, New Customers and About to Sleep only have 100% at Month 0, reflecting need for more time to assess return capability.
+* **Large cohorts but low retention:** Month 1–3 only 2.7–4% → strong acquisition, weak repurchase.
+* **Some cohorts show recovery:** Likely from seasonal demand or reactivation.
+* **Champions retain best:** Maintain 4–6% across several months.
+* **Loyal & Need Attention retain poorly:** Loyal <1% by Month 6 → high churn risk.
+* **Potential Loyalists show promise:** Higher early retention than Loyal → worth activating.
+* **Promising, New Customers and About to Sleep** only have 100% at Month 0
 
 ### 💰 LTV Analysis Insights
 
-- **Three "frozen" segments show no LTV growth over 12 months**: New Customers (\$49.95), Promising (\$476.60) and About to Sleep (\$79.73) all show no increase after initial purchase. This shows they are not being properly reactivated.
+* **Three segments frozen in LTV:** New, Promising, About to Sleep → no LTV growth, no repurchase.
+* **Champions deliver highest ROI:** ~$496 LTV → CAC can be high and still profitable.
+* **Loyal growth stagnates:** Nearly flat after month 9 → low purchase motivation.
+* **Potential Loyalists = hidden gem:** Low LTV but strong +26.7% growth → long-term potential.
+* **Massive LTV gap:** Champions 10× New → highly uneven value distribution.
+* **LTV grows unevenly across segments:** Each group has distinct behaviors → requires tailored strategies.
 
-- **Champions have highest ROI**: With LTV of \$495.68, store can spend CAC \$400+ and still be profitable. This confirms this is the most investment-worthy segment.
-
-- **Loyal customers plateau after 9 months**: LTV grows very slowly (+0.4% in last 3 months), showing this segment lacks motivation to purchase more.
-
-- **Potential Loyalists are "hidden gems"**: Although LTV is only \$56, the growth rate of +26.7% is second highest after Champions, proving this group has long-term growth potential.
-
-- **Massive LTV gap**: Champions have LTV near \$500 – 10x the New group (~$50), showing strong differentiation in customer value.
-
-- **Uneven LTV growth**: Champions grow strongly in months 1-6 then slow down; Loyal grows steadily but slowly; Potential Loyalists grow slightly but continuously. This reflects different purchasing behaviors across segments.
+---
 
 ### 🌎 Overall Insights – Summary
 
-- **Growth depends on new customers**: Despite strong customer base and revenue growth, declining AOV and frequency of only ~2.3 times/year shows the store is not yet effectively leveraging existing customers.
+The store is growing strongly thanks to ***new customer acquisition***, but most customers ***purchase only once and then churn***. High-value segments are declining, LTV is stagnant, and retention is weak across the entire system.
 
-- **Customer structure imbalanced**: New Customers outnumber Champions, Loyal only 8.33%. This shows the conversion journey from New to Loyal/Champions is weak.
-
-- **Potential segments not properly nurtured**: Promising and Potential Loyalists have capability to bring high value but have not been activated. This is an opportunity for rapid growth.
-
-- **Retention weak and unstable**: Large cohorts have Month 1-3 retention only 2-4% and many cohorts show U-shape indicating post-purchase care funnel is not standardized.
-
-- **RFM shows massive customer value differentiation**: Champions LTV is 10x New; many segments show no LTV growth over 12 months, proving need to focus on right segments instead of just increasing traffic.
-
-- **Growth markets lie outside traditional regions**: SEA & Oceania grow fastest, showing need to prioritize expansion in emerging markets.
-
-- **Body care dominates but Face care is neglected**: Gap of 4.7K vs 1K creates large opportunity for cross-sell and margin increase.
+**THE BIGGEST PROBLEM**
+👉 **Purchase frequency is the strategic bottleneck.**
+The store lacks an engine to convert new customers into repeat buyers — causing the entire customer ecosystem to erode.
 
 ---
 
 ## 💡 D. Strategic Recommendations
 
-Based on the analysis, the store should focus on **7 main strategic directions** to improve business performance:
+- **1. Increase Repeat Purchases Early**
 
-### 1. Activate 3 "frozen" segments (53% of customer base)
-- **New Customers**: Deploy strong onboarding journey in first 90 days with email nurturing, incentives and product education
-- **Promising**: Analyze reasons for "freezing" and build targeted activation campaigns
-- **About to Sleep**: Win-back campaigns with attractive offers and surveys to understand reasons for stopping purchases
+Focus on converting first-time buyers into second-time buyers within 30–60 days through timely reminders, small incentives, and helpful product guidance.
 
-### 2. Increase purchase frequency (from 2.3 to 3.5+ times/year)
-- Deploy **subscription model** for consumable products with attractive incentives
-- Build **smart replenishment reminders** based on product lifecycle
-- Develop **loyalty program** with tiers to reward repeat purchases
-- Create **urgency and scarcity** through limited-time offers and flash sales
+- **2. Create a Consistent Product Usage Routine**
 
-### 3. Improve AOV (from \$125 to \$150+)
-- **Upsell strategies**: Product recommendations, "frequently bought together"
-- **Cross-sell campaigns**: Especially Body care → Face care
-- **Bundle deals**: Skincare routines with discounts
-- **Minimum order incentives**: Free shipping/gifts for orders above threshold
+Introduce clear routines, refill reminders, and simple product bundles to encourage customers to repurchase on a regular skincare cycle.
 
-### 4. Optimize retention by cohort-specific patterns
-- Analyze and **replicate success factors** of April cohort (best retention)
-- Apply **adaptive timing** for campaigns based on peak retention month of each cohort
-- Leverage **U-shape recovery pattern** with seasonal reactivation campaigns in Q4
-- Standardize **customer journey** to reduce retention volatility
+- **3. Strengthen Loyalty & Prevent Churn**
 
-### 5. Scale high-value segments
-- **Increase CAC investment** for Champion-profile prospects (can spend up to $200-400)
-- Develop **referral program** leveraging Champions (LTV $496)
-- Create **Champion pathway** to convert Potential Loyalists faster
-- **VIP programs** to maintain and grow Loyal segment
-
-### 6. Strategic geographic expansion
-- **Double down** on Southeast Asia and Oceania (growth +35%)
-- Localization: language, payment methods, logistics
-- Local partnerships and influencer marketing
-- Maintain stable growth in Western Europe and Central America
-
-### 7. Optimize product mix
-- **Cross-sell Face care** to 4.7K Body care customers
-- Educational content about complete skincare routines
-- Bundle promotions combining categories
-- Analyze barriers to adoption and address
-
----
-
-## 🚀 Conclusion
-
-This project demonstrates end-to-end Business Intelligence development using Power BI, from stakeholder requirements gathering through data modeling to dashboard storytelling and strategic recommendations.
-
-**Key Outcomes**:
-- Identified **Frequency (2.05/5)** as the primary growth lever
-- Discovered **53% of customer base "frozen"** (New, Promising, About to Sleep) requiring urgent activation
-- Quantified **massive value gap** between segments (Champions LTV 10x New Customers)
-- Provided **7 strategic directions** specifically to improve retention, frequency and LTV
-- Built **analytical framework** scalable for ongoing monitoring
+Offer meaningful rewards, early-access perks, and personalized follow-ups to keep high-value customers engaged instead of drifting away.
 ---
 
 **Tools**: Power BI Desktop | Power Query | DAX | Excel  
