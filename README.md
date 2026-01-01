@@ -211,8 +211,8 @@ Developed interactive three-page report:
 ### 📍 Customer Overview Insights (2023)
 
 * **Customer growth is strong but shallow:** Total customers +24.7%, returning customers +76.5%, yet repeat behavior rarely persists beyond the second purchase.
-* **Revenue grows by volume, not value:** Revenue +23.8% while AOV –2.5%, showing limited upsell, cross-sell, and basket expansion.
-* **Purchase frequency is structurally low:** 2.3 purchases/year (~every 5 months), far below the 1–3 month skincare repurchase cycle.
+* **Revenue grows by volume, not value:** Revenue +23.8% while AOV –3.8%, showing limited upsell, cross-sell, and basket expansion.
+* **Purchase frequency is structurally low:** 1.16 purchases/year (~every 10 months), far below the 1–3 month skincare repurchase cycle.
 * **Growth is uneven by region:** SEA & Oceania grow fastest (~2× others), while Western Europe & Central America still account for >50% of customers and must remain stable.
 
 #### **Page 2: Segmentation Analysis (RFM)** 
