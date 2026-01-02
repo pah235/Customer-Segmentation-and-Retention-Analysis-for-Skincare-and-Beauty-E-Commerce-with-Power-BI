@@ -199,7 +199,7 @@ total_monetary = CALCULATE(SUM(fact_sales[Sales]))
 **LTV Formula**: This project uses the simplified LTV calculation:  
 **LTV = Cumulative Revenue Over Time / Total Number of Customers**
 
-### 3. 📈 Key Insights and Visualizations
+### 3. 📈 Key Insights and Visualizations (Target Customer: Consumer)
 
 Developed interactive three-page report:
 
@@ -210,8 +210,8 @@ Developed interactive three-page report:
 
 ### 📍 Customer Overview Insights (2023)
 
-* **Customer growth is strong but shallow:** Total customers +24.7%, returning customers +76.5%, yet repeat behavior rarely persists beyond the second purchase.
-* **Revenue grows by volume, not value:** Revenue +23.8% while AOV –3.8%, showing limited upsell, cross-sell, and basket expansion.
+* **Customer growth is strong but shallow:** Total customers +25.9%, returning customers +73.2%, yet repeat behavior rarely persists beyond the second purchase.
+* **Revenue grows by volume, not value:** Revenue +21.5% while AOV –6.9%, showing limited upsell, cross-sell, and basket expansion.
 * **Purchase frequency is structurally low:** 1.16 purchases/year (~every 10 months), far below the 1–3 month skincare repurchase cycle.
 * **Growth is uneven by region:** SEA & Oceania grow fastest (~2× others), while Western Europe & Central America still account for >50% of customers and must remain stable.
 
@@ -222,11 +222,15 @@ Developed interactive three-page report:
 
 ### 🎯 RFM Segmentation Insights (Last 12 months)
 
-* **Overall RFM quality is weak:** Average RFM 2.04/5, driven by very low Frequency (1.24) and Monetary (1.87), despite acceptable Recency (3.00).
+* **RFM performance is weak:** Avg score 2.04/5. Recency is acceptable (3.00) but **Frequency collapses (1.24)** and Monetary is low (1.86) → customers are reachable but not repeating.
+
 * **Customers are reachable but inactive:** Recency indicates recent contact, but Frequency ≈ 1 confirms most customers bought only once in 2023.
-* **Customer base skews low-value:** New Customers alone = 32.2% of customers; Promising + Hibernating + Lost ≈ 61%, while Champions are only 4.24%.
-* **Revenue does not reflect loyalty:** Promising and New Customers together generate >55% of revenue, while Champions contribute just 11.6% due to small size.
-* **Core RFM failure = Frequency collapse:** Low Monetary is a consequence of missing repeat purchases, not weak spending capacity.
+
+* **Customer mix skews low-value:** New Customers (32.8%) and Promising + Hibernating + Lost (~60%) dominate; Champions are only 4.5%.
+
+* **Revenue ≠ loyalty:** ~55% of revenue comes from New Customers and Promising (Frequency = 1); Champions contribute just 11.6% due to small size.
+
+* **Core RFM failure = Frequency:** Low Monetary is driven by missing repeat purchases, not low spending power.
 
 #### **Page 3: Retention Analysis (Cohort)**
 <p align="center">
@@ -235,29 +239,43 @@ Developed interactive three-page report:
 
 ### 📅 Retention (Cohort Analysis) Insights
 
-* **Large cohorts but low retention:** Month 1–3 only 2.7–4% → strong acquisition, weak repurchase.
-* **Some cohorts show recovery:** Likely from seasonal demand or reactivation.
-* **One-time purchase dominates:** New Customers, Promising, and About to Sleep retain only at Month 0, fully aligning with Frequency ≈ 1.
-* **Potential Loyalists show intent but are not activated:** Slightly better early retention, but no sustained lifecycle engagement.
-* **Champions retain best but are too few:** Strongest retention profile, yet only 4.24% of customers—insufficient to stabilize the system.
+* **Strong acquisition, weak early retention:** Month 1 retention of New Customers only ~0.4–5.6%; even best segments reach just ~15–17%.
+
+* **One-time purchase dominates:** New, Promising, About to Sleep retain only at Month 0 → aligned with Frequency ≈ 1.
+
+* **Potential Loyalists fail to convert:** Early retention peaks ~18% (Months 1–3) then drops fast → missed nurturing.
+
+* **Champions perform best but are small:** Stable retention (~3–4% at Months 9–11) but only ~4.5% of customers.
+
+* **Loyal segment negligible:** 1 customer (0.01%) → not meaningful for analysis.
 
 ### 💰 LTV Analysis Insights (Cohort-based, 4-year Lifecycle)
 
-* **True LTV exists but materializes late:** Across four years, most segments accumulate value gradually, revealing delayed repeat behavior invisible in a 1-year view.
-* **Champions set the benchmark:** LTV grows steadily (~344 → ~625 by Month 12), reflecting consistent repeat purchasing and strong lifecycle engagement.
-* **Loyal customers front-load value:** High early LTV (~717–859) but quick saturation, indicating strong onboarding but weak long-term deepening.
-* **Mid-tier segments grow slowly and inefficiently:** Promising and Potential Loyalists accumulate moderate LTV late, leaving significant unrealized value.
-* **Churn happens after value is created:** Hibernating and Lost still reach ~275–281 LTV, highlighting the cost of late disengagement.
+* **LTV grows slowly:** Repeat purchases exist but are delayed and weak.
 
+* **Champions set the benchmark:** LTV ~216 → ~390 (Month 0–12), most sustainable.
+
+* **Loyal value is abrupt:** Sharp LTV jump (~484 at Month 9) then flat.
+
+* **Mid-tier underperform:** Promising (~227→260), Potential Loyalists (~115→166) → large unrealized LTV.
+
+* **Churn after value extraction:** Hibernating & Lost still add LTV (~161→187; ~154→170), showing late disengagement cost.
 ---
 
 ### 🌎 Overall Insights – Summary
 
-The store is growing through **strong acquisition**, but **customer value creation is inefficient and delayed**. Most customers purchase once and disengage early, while meaningful lifetime value—where it exists—accumulates too late in the lifecycle. Revenue is therefore volume-driven, retention remains weak, and growth depends heavily on reacquisition and late reactivation rather than sustainable repeat behavior.
+- The business is achieving **strong customer acquisition growth**, but **value creation per customer remains weak and inefficient**. Despite growth in total customers (+25.9%) and returning customers (+73.2%), repeat behavior rarely extends beyond the second purchase. Revenue growth is primarily **volume-driven rather than value-driven**, as revenue increases (+21.5%) alongside a decline in AOV (–6.9%), confirming that upsell, cross-sell, and basket expansion remain ineffective.
+- Across RFM, retention, and LTV, a consistent pattern emerges: customers are **reachable but inactive** (Recency ≈ 3.0, Frequency ≈ 1). Early retention fails, mid-tier segments are not activated, and LTV accumulates slowly and late. While Champions show strong value behavior, they represent only ~4.5% of customers—leaving growth dependent on continued **acquisition rather than sustainable**, repeat-driven value.
+
 
 🚨**THE BIGGEST PROBLEM**
-👉 **Purchase frequency is the strategic bottleneck.**
-The store lacks an effective lifecycle engine to convert first-time buyers into early repeat customers, causing Frequency collapse, early retention failure, and delayed LTV realization across nearly all segments.
+👉 **Purchase Frequency is the core structural bottleneck.**
+The business lacks an effective lifecycle engine to convert first-time buyers into early and repeated purchasers, resulting in:
+  - Frequency collapse across nearly all segments
+  - Weak Month 1–3 retention, where customer value should be established
+  - Delayed and inefficient LTV realization
+
+👉 Low Monetary performance in 2023 is **not a spending power issue**, but a direct consequence of missing repeat purchase behavior.
 
 ---
 
@@ -265,19 +283,19 @@ The store lacks an effective lifecycle engine to convert first-time buyers into 
 
 - **1️⃣ Win the Second Purchase Early**
 
-Prioritize Month 0–2 conversion with targeted reminders, replenishment cues, and low-friction incentives—where retention and Frequency drop the fastest
+  - Focus on **Month 0–2**, where Frequency and retention drop fastest, using timely reminders, replenishment cues, and low-friction incentives.
 
-- **2️⃣ Pull LTV Forward, Not Just Up**
+- **2️⃣ Pull LTV Forward**
 
-Focus on accelerating repeat timing for Promising and Potential Loyalists to compress LTV into earlier months, rather than relying on slow multi-year accumulation.
+  - Accelerate repeat timing for **Promising and Potential Loyalists** to realize value earlier, instead of relying on slow LTV accumulation.
 
-- **3️⃣ Scale Champions’ Behaviors**
+- **3️⃣ Scale Champion Behaviors**
 
-Replicate Champions’ purchase patterns (cadence, bundles, routines) across mid-tier segments to expand high-quality customer share.
+  - Replicate Champions’ purchase cadence, bundles, and routines across mid-tier segments to grow the high-value customer base.
 
-- **4️⃣ Intervene Before Customers Go Dormant**
+- **4️⃣ Prevent Early Dormancy**
 
-Proactively re-engage Hibernating and at-risk customers earlier, before Recency collapses and historical LTV stops growing.
+  - Re-engage at-risk and Hibernating customers before **Recency collapses** and lifetime value stalls.
 
 ---
 
